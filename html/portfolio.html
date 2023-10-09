@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello! Welcome to my Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="nav_bar">
+            <nav>
+                <div class="nav_icon"><a href="index.html"><img class="logo" src="../img/mark-logo.svg"></a></div>
+                <ul class="nav_selection">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li>           
+                        <div class="contact_me">
+                            <div class="contact_btn"><a href="contact.html">CONTACT ME</a></div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="gallery_section_new">
+        <h1 class="title_gal">My Portfolio</h1>
+        <input class="radio" id="projects" name="group" type="radio" checked>
+        <input class="radio" id="skills" name="group" type="radio">
+        <input class="radio" id="habits" name="group" type="radio">
+        <div class="gal_selection_container">
+            <label id="projects-tab" for="projects">School Projects</label>
+            <label id="skills-tab" for="skills">Skills</label>
+            <label id="habits-tab" for="habits">Habits</label>
+        </div>
+        <div class="gal_container">
+            <div class="card_container" id="projects-cards">
+                <div class="cards_gal">
+                    <div class="card_img">
+                        <img src="../img/calc.svg" alt="Calculator" class="projects_pic">
+                    </div>
+                    <div class="card_details_container">
+                        <div class="card_details">
+                            <div class="card_title">Calculator</div>
+                            <div class="card_mini_title">IT 108</div>
+                            <p class="card_desc">
+                                Calculator with Number System Converter created using Java for Object Oriented Programming.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards_gal">
+                    <div class="card_img">
+                        <img src="../img/inventory.svg" alt="Inventory" class="projects_pic">
+                    </div>
+                    <div class="card_details_container">
+                        <div class="card_details">
+                            <div class="card_title">Inventory</div>
+                            <div class="card_mini_title">IT 108</div>
+                            <p class="card_desc">
+                                Shop Inventory System created using Java for Object Oriented Programming.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards_gal">
+                    <div class="card_img">
+                        <img src="../img/chatapp.svg" alt="Chat" class="projects_pic">
+                    </div>
+                    <div class="card_details_container">
+                        <div class="card_details">
+                            <div class="card_title">Chat Application</div>
+                            <div class="card_mini_title">IT 114</div>
+                            <p class="card_desc">
+                                Real-time Chat Application website created using Node.js for Networking.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container" id="skills-cards">
+                <div class="cards_gal">
+                    <div class="card_img">
+                        <img src="../img/html-logo.svg" alt="HTML" class="skills_pic">
+                    </div>
+                    <div class="card_details_container">
+                        <div class="card_details">
+                            <div class="card_title">HTML</div>
+                            <div class="card_mini_title">Front-end Web Development</div>
+                            <p class="card_desc">
+                                Experienced in HyperText Markup Language for creating Web Pages in Front-end Web Development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards_gal">
+                    <div class="card_img">
+                        <img src="../img/css-logo.svg" alt="CSS" class="skills_pic">
+                    </div>
+                    <div class="card_details_container">
+                        <div class="card_details">
+                            <div class="card_title">CSS</div>
+                            <div class="card_mini_title">Front-end Web Development</div>
+                            <p class="card_desc">
+                                Experienced in Cascading Style Sheets for styling Web Pages in Front-end Web Development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards_gal">
+                    <div class="card_img">
+                        <img src="../img/js-logo.svg" alt="JS" class="skills_pic">
+                    </div>
+                    <div class="card_details_container">
+                        <div class="card_details">
+                            <div class="card_title">JS</div>
+                            <div class="card_mini_title">Back-end Web Development</div>
+                            <p class="card_desc">
+                                Has knowledge in using Javascript for Website Interactivity in Back-end Web Development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container" id="habits-cards">
+                <div class="cards_gal">
+                    <div class="card_img">
+                        <img src="../img/gamingpic.svg" alt="Gaming" class="habits_pic">
+                    </div>
+                    <div class="card_details_container">
+                        <div class="card_details">
+                            <div class="card_title">Gaming</div>
+                            <div class="card_mini_title">Hobby</div>
+                            <p class="card_desc">
+                                Playing video games is one of my favorite activty to do during my free-time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards_gal">
+                    <div class="card_img">
+                        <img src="../img/musicpic.svg" alt="Music" class="habits_pic">
+                    </div>
+                    <div class="card_details_container">
+                        <div class="card_details">
+                            <div class="card_title">Music</div>
+                            <div class="card_mini_title">Hobby</div>
+                            <p class="card_desc">
+                                Listening to various songs is one of my hobbies especially while traveling.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards_gal">
+                    <div class="card_img">
+                        <img src="../img/drawingpic.svg" alt="Drawing" class="habits_pic">
+                    </div>
+                    <div class="card_details_container">
+                        <div class="card_details">
+                            <div class="card_title">Drawing</div>
+                            <div class="card_mini_title">Hobby</div>
+                            <p class="card_desc">
+                                Drawing is one of my biggest pastimes especially if I am bored and have nothing to do.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_section">
+        <footer>
+            <div class="footer_container">
+                <div class="footer_logo_container"><a href="index.html"><img class="logo_footer" src="../img/mark-logo.svg"></a></div>
+                <div class="social_icons_footer">
+                    <div class="footer_icons"><a href="https://www.facebook.com/mark.bitancor.5/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></div>
+                    <div class="footer_icons"><a href="https://twitter.com/MarkBitanc32074" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
+                    <div class="footer_icons"><a href="https://github.com/Bitancor" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                </div>
+                <div class="rights">
+                    <p>&copy; 2023 Mark Bitancor | All Rights Reserved | Bicol University College of Science | BSIT-3B</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
