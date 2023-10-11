@@ -202,11 +202,10 @@ nav li a:hover{
     align-items: center;
     justify-content: center;
     gap: 5rem;
-
 }
 .gal_selection_container label:hover{
     color: #f88c64;
-    transition: 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 .card_container{
     display: flex;
@@ -428,6 +427,13 @@ textarea{
     background-size: cover;
     background-position: center;
     height: 800px;
+}
+.about_section_new{
+    background-image: url('../img/bgabout.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
     margin-top: 100px;
 }
 .about_line{
@@ -517,13 +523,15 @@ textarea{
 }
 #personal:checked ~ .about_details_content #person-content,
 #educational:checked ~ .about_details_content #edu-content,
-#skills:checked ~ .about_details_content #skills-content{
+#skills:checked ~ .about_details_content #skills-content,
+#experience:checked ~ .about_details_content #exp-content{
     display: block;
 }
 
 #personal:checked ~ .about_selection_container #person-tab,
 #educational:checked ~ .about_selection_container #edu-tab,
-#skills:checked ~ .about_selection_container #skills-tab {
+#skills:checked ~ .about_selection_container #skills-tab,
+#exp:checked ~ .about_selection_container #exp-tab{
     color: #FFB703;
     transition: 0.4s ease-in-out;
 }
@@ -655,8 +663,15 @@ textarea{
 .footer_icons a:hover{
     color: #FFB703;
 }
-.rights{
+.email{
     margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.rights{
+    margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
