@@ -10,29 +10,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/mark-favicon.svg" type="image/icon type">
 </head>
 <body>
-    <header>
-        <div class="nav_bar">
-            <nav>
-                <div class="nav_icon"><a href="index.html"><img class="logo" src="../img/mark-logo.svg"></a></div>
-                <ul class="nav_selection">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li>           
-                        <div class="contact_me">
-                            <div class="contact_btn"><a href="contact.html">CONTACT ME</a></div>
-                        </div>
-                    </li>
-                </ul>
-                <div class="menu">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </nav>
+    <div class="banner" id="index">
+        <header>
+            <div class="nav_bar">
+                <nav>
+                    <div class="nav_icon"><a href="index.html"><img class="logo" src="../img/mark-logo.svg"></a></div>
+                    <ul class="nav_selection">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li>           
+                            <div class="contact_me">
+                                <div class="contact_btn"><a href="contact.html">CONTACT ME</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="introduction">
+            <div class="intro_text">
+                <p id="home_p">My Name is</p>
+                <h1 id="home_h1">Mark S. Bitancor</h1>
+                <p id="home_p">An aspiring Front-End Web Developer currently studying in Bicol University taking BS Information Technology.</p><br>
+                <div class="about_btn"><a href="about.html">About Me</a></div>
+            </div>
+            <img class="prof_pic" src="../img/profilepic.svg">
         </div>
-    </header>
-    <div class="gallery_section_new">
+    </div>
+    <div class="gallery_section" id="portfolio">
         <h1 class="title_gal">My Portfolio</h1>
         <input class="radio" id="projects" name="group" type="radio" checked>
         <input class="radio" id="skills" name="group" type="radio">
@@ -184,6 +196,7 @@
                 <div class="social_icons_footer">
                     <div class="footer_icons"><a href="https://www.facebook.com/mark.bitancor.5/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></div>
                     <div class="footer_icons"><a href="https://twitter.com/MarkBitanc32074" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
+                    <div class="footer_icons"><a href="https://www.instagram.com/marksantos.bitancor/" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
                     <div class="footer_icons"><a href="https://github.com/Bitancor" target="_blank"><i class="fa-brands fa-github"></i></a></div>
                 </div>
                 <div class="rights">
@@ -192,5 +205,6 @@
             </div>
         </footer>
     </div>
+    
 </body>
 </html>
