@@ -42,6 +42,7 @@ a {
     align-items: center;
     height: 100px;
     width: 100vw;
+    z-index: 999;
 }
 nav{
     display: flex;
@@ -184,8 +185,20 @@ nav li a:hover{
     margin-right: 10%;
     padding: 4rem 0rem;
 }
+.gal_container_index{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1rem 0 4rem 0;
+}
 .title_gal{
     padding: 3rem 0px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #003c96;
+}
+.title_gal_index{
+    padding: 3rem 0 1.5rem 0;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
@@ -206,6 +219,14 @@ nav li a:hover{
 .gal_selection_container label:hover{
     color: #f88c64;
     transition: all 0.4s ease-in-out;
+}
+.card_container_index{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem 5rem;
+    animation: fadein 0.8s;
 }
 .card_container{
     display: flex;
@@ -289,6 +310,14 @@ nav li a:hover{
 #habits:checked ~ .gal_selection_container #habits-tab{
     color: #f88c64;
     transition: 0.4s ease-in-out;
+}
+.learn_more a{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #003c96;
+    padding-bottom: 3rem;
 }
 
 /*Contact*/
@@ -626,6 +655,54 @@ textarea{
 	100%{
 		width: 15%;
 	}
+}
+.exp_section{
+    background-color: #FFF7DD;
+    padding-bottom: 3rem;
+}
+.exp_container{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0.5rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+.exp_pic{
+    width: 500px;
+}
+#exp_h1{
+    font-size: 40px;
+    color:#003c96;
+    font-family: 'Poppins', sans-serif;
+}
+#exp_p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+.title_exp{
+    padding: 2rem 0 0 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #003c96;
+}
+.title_exp_new{
+    padding: 3rem 0 0 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #003c96;
+}
+.home_line{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #ffffff00, rgba(0, 60, 150, 0.988), #ffffff00);
 }
 /*Footer*/
 .footer_section{
